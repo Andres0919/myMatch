@@ -10,7 +10,7 @@ export default {
   props: {
     border: Boolean,
     danger: Boolean,
-    primary: Boolean
-  }
+    primary: Boolean,
+  },
 }
 </script>
