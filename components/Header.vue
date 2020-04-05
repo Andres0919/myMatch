@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between bg-gray-200 mb-3">
+  <div class="flex justify-between bg-gray-200">
     <div class="text-gray-700 text-center bg-gray-400 px-4 py-2 my-2 ml-6">
       MyMatch
     </div>
