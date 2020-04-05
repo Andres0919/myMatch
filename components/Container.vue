@@ -1,6 +1,6 @@
 <template>
-  <div class="grid grid-cols-3 bg-gray-200 mb-3">
-    <div class="col-span-2 h-screen bg-gray-400 mr-2 overflow-y-scroll">
+  <div class="grid grid-cols-3 bg-gray-200 h-screen">
+    <div class="col-span-2 max-h-full bg-gray-400 mr-2 overflow-y-scroll">
       <div class="text-gray-700 w-full text-center bg-gray-200 mb-2">
         1
       </div>
@@ -17,7 +17,7 @@
       </div>
     </div>
     <div
-      class="col-span-1 h-screen text-gray-700 text-center bg-gray-400 px-4 py-2"
+      class="col-span-1 max-h-full text-gray-700 text-center bg-gray-400 px-4 py-2"
     >
       login
     </div>
