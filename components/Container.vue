@@ -1,10 +1,17 @@
 <template>
-  <div class="grid grid-cols-3 bg-gray-200 h-screen pt-12">
-    <div class="col-span-2 max-h-full bg-gray-400 mr-2 overflow-y-scroll">
-      <div class="text-gray-700 w-full text-center bg-gray-200 my-2">
-        <h1 class="title">
-          BEST CANDIDATE
-        </h1>
+  <div class="grid grid-cols-2 bg-gray-200 pt-12">
+    <div class="col-span-2 max-h-full bg-gray-400 mr-2">
+      <div class="text-gray-700 w-full text-center h-screen bg-gray-200 my-2">
+        <div class="h-64 flex justify-center items-center">
+          <div class="w-full">
+            <p class="font-mono text-6xl">
+              Andrés Posada
+            </p>
+            <p class="font-mono">
+              Desarrollador web
+            </p>
+          </div>
+        </div>
       </div>
       <div class="text-gray-700 grid grid-cols-2 text-center bg-gray-400 mb-2">
         <div class="text-gray-700 text-center bg-gray-200 px-4 mx-2">
@@ -31,18 +38,6 @@
           </div>
         </div>
       </div>
-      <div
-        v-for="row in 20"
-        :key="row"
-        class="text-gray-700 w-full text-center bg-gray-200 mb-2"
-      >
-        {{ row }}
-      </div>
-    </div>
-    <div
-      class="col-span-1 max-h-full text-gray-700 text-center bg-gray-400 px-4 py-2"
-    >
-      login
     </div>
   </div>
 </template>
