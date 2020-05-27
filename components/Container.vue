@@ -1,9 +1,16 @@
 <template>
   <div class="grid grid-cols-2 bg-gray-200 pt-12">
     <div class="col-span-2 max-h-full bg-gray-400 mr-2">
-      <div class="text-gray-700 w-full text-center h-screen bg-gray-200 my-2">
-        <div class="h-64 flex justify-center items-center">
-          <div class="w-full">
+      <div class="text-gray-700 w-full text-center h-screen bg-gray-200">
+        <div
+          class="h-auto flex justify-center items-center border-solid border-4 border-gray-600"
+        >
+          <div class="w-full mt-24 mb-32">
+            <div class="w-full flex justify-center">
+              <div class="photo">
+                PHOTO
+              </div>
+            </div>
             <p class="font-mono text-6xl">
               Andrés Posada
             </p>
@@ -13,12 +20,14 @@
           </div>
         </div>
       </div>
-      <div class="text-gray-700 grid grid-cols-2 text-center bg-gray-400 mb-2">
-        <div class="text-gray-700 text-center bg-gray-200 px-4 mx-2">
-          <div class="mb-3">
+      <div class="text-gray-700 text-center bg-gray-400 mb-2">
+        <div
+          class="text-gray-700 grid grid-cols-2 text-center bg-gray-200 items-center"
+        >
+          <div class="px-20 mx-10">
             <ProfilePicture />
           </div>
-          <p class="text-justify">
+          <p class="text-left px-10 mx-10">
             Donec molestie venenatis vulputate. Proin vitae eros vel leo pretium
             pulvinar at in neque. Integer porta vel felis eu ultricies. Nam
             mauris ex, tempor consequat ligula ut, laoreet consequat lorem.
@@ -26,14 +35,18 @@
             Vivamus sed turpis laoreet, dapibus metus eu, mollis ipsum.
           </p>
         </div>
-        <div class="text-center bg-gray-200 px-4 mx-2">
-          <p class="font-sans text-3xl text-gray-800">
-            Andrés Felipe Posada Quiroz
-          </p>
-          <p class="font-sans text-base text-gray-500 italic">
-            Tecnólogo en Sistemas de Información
-          </p>
-          <div class="mt-24">
+        <div
+          class="text-center grid grid-cols-2 bg-gray-200 px-4 mx-2 items-center"
+        >
+          <div>
+            <p class="font-sans text-3xl text-gray-800">
+              Andrés Felipe Posada Quiroz
+            </p>
+            <p class="font-sans text-base text-gray-500 italic">
+              Tecnólogo en Sistemas de Información
+            </p>
+          </div>
+          <div class="mt-24 px-20 mx-10">
             <SkillImg />
           </div>
         </div>
@@ -65,5 +78,12 @@ export default {
   color: #35495e;
   letter-spacing: 1px;
   text-transform: capitalize;
+}
+
+.photo {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 </style>
