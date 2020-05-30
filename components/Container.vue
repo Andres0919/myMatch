@@ -1,22 +1,22 @@
 <template>
   <div class="grid grid-cols-2 bg-gray-200 pt-12">
-    <div class="col-span-2 max-h-full bg-gray-400 mr-2">
-      <div class="text-gray-700 w-full text-center h-screen bg-gray-200">
-        <div
-          class="h-auto flex justify-center items-center border-solid border-4 border-gray-600"
-        >
-          <div class="w-full mt-24 mb-32">
-            <div class="w-full flex justify-center">
-              <div class="photo">
-                PHOTO
+    <div class="col-span-2 max-h-full bg-gray-400">
+      <div class="text-red-800 w-full text-center h-screen bg-gray-200">
+        <div class="h-auto flex justify-center items-center img-background">
+          <div class="h-full w-full overlay">
+            <div class="w-full mt-24 mb-32">
+              <div class="w-full flex justify-center">
+                <div class="photo bg-black">
+                  PHOTO
+                </div>
               </div>
+              <p class="font-sans font-thin text-6xl">
+                ANDRÉS POSADA
+              </p>
+              <p class="font-mono text-2xl">
+                Desarrollador web
+              </p>
             </div>
-            <p class="font-mono text-6xl">
-              Andrés Posada
-            </p>
-            <p class="font-mono">
-              Desarrollador web
-            </p>
           </div>
         </div>
       </div>
@@ -80,8 +80,16 @@ export default {
   text-transform: capitalize;
 }
 
+.img-background {
+  background-image: url('../static/background.jpg');
+  background-position: center;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
 .photo {
-  background-color: red;
   width: 100px;
   height: 100px;
   border-radius: 50%;
