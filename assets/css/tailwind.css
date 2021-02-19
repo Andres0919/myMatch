@@ -3,3 +3,24 @@
 @import 'tailwindcss/components';
 /* purgecss end ignore */
 @import 'tailwindcss/utilities';
+.btn {
+  @apply py-2;
+  @apply px-4;
+  @apply rounded-full;
+}
+
+.btn-lg {
+  @apply btn;
+  @apply py-3;
+  @apply px-6;
+}
+
+.btn-primary {
+  @apply text-white;
+  @apply bg-primary;
+}
+
+.btn-secondary {
+  @apply text-white;
+  @apply bg-secondary;
+}

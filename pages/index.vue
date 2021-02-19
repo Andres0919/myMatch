@@ -2,6 +2,29 @@
   <div>
     <Header />
     <Container />
+    <div class="flex justify-center">
+      <hr class="divider text-primary" />
+    </div>
+    <div class="grid grid-cols-5 px-20 mt-20">
+      <div class="col-span-3 flex justify-center flex-col pl-10">
+        <h3 class="text-4xl mb-5">¿Actualmente qué hago?</h3>
+        <ul class="list-disc">
+          <li>Actualmente estoy trabajando con Nestjs y Vue3 js</li>
+          <li>Actualmente estoy aprendiendo TypeScript y Golang</li>
+          <li>
+            Actualmente estoy leyendo
+            <em>`Seven databases in seven weeks`</em>
+          </li>
+          <li>Actualmente estoy viendo <em>`Barbarians`</em></li>
+          <li>Pregunteme sobre Javascript - Vue(Nuxt), Express</li>
+        </ul>
+      </div>
+      <div class="col-span-2 flex items-center">
+        <div>
+          <img src="~/static/dev.svg" />
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -18,49 +41,8 @@ export default {
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 1.1rem;
-  color: #526488;
-  word-spacing: 2px;
-  padding-bottom: 15px;
-  max-width: 600px;
-}
-
-.subtitle a {
-  font-weight: 500;
-  color: inherit;
-}
-
-.links {
-  padding-top: 15px;
-  margin-bottom: 20px;
-}
-
-.content-logos {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-width: 500px;
-}
-.plus {
-  font-size: 2.5rem;
-  margin: 15px;
-  color: #35495e;
-}
-.h3 {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 400;
-  margin: 10px;
+.divider {
+  width: 20%;
+  border: 1px solid;
 }
 </style>

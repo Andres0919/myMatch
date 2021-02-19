@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('~assets/fonts/Inconsolata/Inconsolata.ttf') format('truetype');
+}

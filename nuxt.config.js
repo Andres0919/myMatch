@@ -23,7 +23,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['vuesax/dist/vuesax.css'],
+  css: ['@/assets/css/main.css'],
   /*
    ** Plugins to load before mounting the App
    */
