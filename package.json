@@ -4,6 +4,10 @@
   "description": "My stupendous Nuxt.js project",
   "author": "error404",
   "private": true,
+  "engines": {
+    "node": "12",
+    "npm": "7"
+  },
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
