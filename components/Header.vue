@@ -8,16 +8,16 @@
       </div>
       <div class="col-span-2 flex items-center justify-around">
         <ul class="flex">
-          <li class="mx-5"><a href="">Home</a></li>
+          <li class="mx-5">
+            <a href="" class="hover:border-black">Home</a>
+          </li>
           <li class="mx-5">Acerca de mi</li>
           <li class="mx-5">Portafolio</li>
           <li class="mx-5">Blog</li>
           <li class="mx-5">Contacto</li>
           <li class="mx-3 px-3 bg-primary rounded-full">
             <a href="#" class="hover:shadow-2xl">
-              <span class="text-white">
-                Login
-              </span>
+              <span class="text-white"> Login </span>
             </a>
           </li>
         </ul>
@@ -45,4 +45,7 @@ export default {
   }),
 }
 </script>
-<style scoped></style>
+<style scoped>
+.aa:hover {
+}
+</style>

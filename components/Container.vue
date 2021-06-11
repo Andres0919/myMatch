@@ -9,12 +9,10 @@
       <h3 class="text-4xl mb-5">Acerca de mí</h3>
       <p>
         Vivo con mi pequeña hija y mi esposa a quienes amo, respeto y admiro por
-        su manera de ser, por ayudarme a mejorar mucho tanto como padre, pareja,
-        profesional y persona cada día; por apoyarme cuando lo necesito y
-        brindarme ese amor incondicional.
+        su manera de ser, por ayudarme a mejorar cada día en todos los aspectos.
         <br />
-        Soy una persona apasionada por la tecnología y por los video juegos, me
-        gusta pasar tiempo con mi familia y cercanos
+        Soy una persona apasionada por la tecnología, por los videojuegos y me
+        gusta pasar tiempo con mi familia y amigos.
       </p>
       <!-- <span>Louie Jie Mahusay</span><br />
       <small>CEO, Founder</small> -->

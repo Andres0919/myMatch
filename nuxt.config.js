@@ -1,5 +1,6 @@
 export default {
-  mode: 'universal',
+  ssr: true,
+  target: 'static',
   /*
    ** Headers of the page
    */
@@ -33,7 +34,8 @@ export default {
    */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module',
+    '@nuxt/postcss8',
+    '@nuxtjs/tailwindcss',
   ],
   /*
    ** Nuxt.js modules
@@ -44,22 +46,23 @@ export default {
     '@nuxtjs/pwa',
     // Doc: https://github.com/nuxt-community/dotenv-module
     '@nuxtjs/dotenv',
-    '@nuxtjs/tailwindcss',
   ],
+  pwa: {
+    manifest: {
+      lang: 'es',
+    },
+  },
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
    */
-  axios: {},
+  axios: {
+    baseURL: process.env.API_URL || 'http://localhost:5000/api',
+  },
   /*
    ** Build configuration
    */
-  build: {
-    /*
-     ** You can extend webpack config here
-     */
-    extend(config, ctx) {},
-  },
+  build: {},
   purgeCSS: {
     whitelist: ['css-selector-to-whitelist'],
   },
